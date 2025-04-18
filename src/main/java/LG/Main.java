@@ -20,7 +20,6 @@ public class Main {
         if (lp % (k + 1) == 0) {
             if (lp != 0) {
                 int countLoop = lp / (k + 1);
-                int countX = 0;
                 int x[] = new int[k];
                 boolean start = true;
                 boolean startCount = false;
